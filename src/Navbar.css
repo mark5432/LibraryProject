@@ -1,0 +1,60 @@
+.navbar {
+  background-color: #000000a5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+
+}
+
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 15px;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.login-button {
+  background-color: #7f1616;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}

@@ -1,0 +1,22 @@
+
+.container{
+	display: inline-block;
+	align-items: center;
+	height: 0vh;
+	text-align: center;
+  }
+  .typed-out{
+	overflow: hidden;
+	margin-right: 100px;
+	color: #000000;
+	white-space: nowrap;
+	animation: 
+	  typing 5s forwards;
+	font-size: 1.5rem;
+	width: 70%;
+  
+  }
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
